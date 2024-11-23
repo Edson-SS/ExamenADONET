@@ -53,7 +53,7 @@ namespace ExamenADONET
                     {
 
                         txtNombre.Text = Convert.ToString(reader["Nombre"]);
-                        txtPrecio.Text = Convert.ToString(reader["Precio"]);
+                        txtPrecio.Text = Convert.ToInt64(reader["Precio"]).ToString();
                         txtStock.Text = Convert.ToString(reader["Stock"]);
                         //products.Estatus = Convert.ToBoolean(reader["Estatus"]);
 

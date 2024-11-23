@@ -20,25 +20,25 @@ namespace ExamenADONET
         private void btnFrmCrear_Click(object sender, EventArgs e)
         {
             frmCrearProductos frmCrearProductos = new frmCrearProductos();
-            frmCrearProductos.Show();
+            frmCrearProductos.ShowDialog();
         }
 
         private void btnFrmBuscar_Click(object sender, EventArgs e)
         {
             frmBuscarProductos frmBuscarProductos = new frmBuscarProductos();
-            frmBuscarProductos.Show();
+            frmBuscarProductos.ShowDialog();
         }
 
         private void btnFrmActualizar_Click(object sender, EventArgs e)
         {
             frmActualizarProductos frmActualizarProductos = new frmActualizarProductos();
-            frmActualizarProductos.Show();
+            frmActualizarProductos.ShowDialog();
         }
 
         private void btnFrmEliminar_Click(object sender, EventArgs e)
         {
             frmEliminarProductos frmEliminarProductos = new frmEliminarProductos();
-            frmEliminarProductos.Show();
+            frmEliminarProductos.ShowDialog();
         }
     }
 }
