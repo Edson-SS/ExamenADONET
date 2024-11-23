@@ -68,7 +68,7 @@
             Controls.Add(label1);
             Controls.Add(btnEliminar);
             Name = "frmEliminarProductos";
-            Text = "frmEliminarProductos";
+            Text = "Eliminar Producto";
             ResumeLayout(false);
             PerformLayout();
         }

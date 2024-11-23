@@ -84,7 +84,7 @@
             Controls.Add(btnFrmBuscar);
             Controls.Add(btnFrmCrear);
             Name = "frmMenu";
-            Text = "frmMenu";
+            Text = "Menu";
             ResumeLayout(false);
         }
 

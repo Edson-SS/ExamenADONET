@@ -80,7 +80,7 @@
             Controls.Add(btnBuscarProducto);
             Controls.Add(dgvProducto);
             Name = "frmBuscarProductos";
-            Text = "frmBuscarProductos";
+            Text = "Buscar Productos";
             ((System.ComponentModel.ISupportInitialize)dgvProducto).EndInit();
             ResumeLayout(false);
             PerformLayout();

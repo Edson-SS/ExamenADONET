@@ -152,7 +152,7 @@
             Controls.Add(label1);
             Controls.Add(btnBuscarProducto);
             Name = "frmActualizarProductos";
-            Text = "frmActualizarProductos";
+            Text = "Actualizar Producto";
             Producto.ResumeLayout(false);
             Producto.PerformLayout();
             ResumeLayout(false);

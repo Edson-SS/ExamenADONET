@@ -108,7 +108,7 @@
             Controls.Add(txtNombre);
             Controls.Add(label1);
             Name = "frmCrearProductos";
-            Text = "frmCrearProductos";
+            Text = "Crear Producto";
             ResumeLayout(false);
             PerformLayout();
         }
